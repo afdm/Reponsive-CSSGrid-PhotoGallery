@@ -1,0 +1,33 @@
+.gallery {
+  display: grid;
+  grid-gap: 0.5rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+.gallery img {
+  animation: 1s ease-out imgEntrance forwards;
+}
+
+.gallery .tall {
+  grid-row: auto / span 2;
+}
+
+@keyframes imgEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0);
+    filter: hue-rotate(180deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+}
