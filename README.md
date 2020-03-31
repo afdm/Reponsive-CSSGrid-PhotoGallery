@@ -1,1 +1,3 @@
-A responsive gallery with CSS Grid. Masonry
+A responsive gallery with CSS Grid.
+
+tags: Masonry
