@@ -14,8 +14,11 @@
   animation: 1s ease-out imgEntrance forwards;
 }
 
-.gallery .tall {
+.tall {
   grid-row: auto / span 2;
+}
+
+.wide {
 }
 
 @keyframes imgEntrance {
